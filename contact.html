@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMAIL & PASSWORD FORM</title>
+</head>
+<body style="font-family: Arial, sans-serif; text-align: center; margin-top: 50px;">
+<center><h1><u>WELCOME TO OUR CONTACT PAGE</u></h1></center>
+<div style="display: flex; margin-top: 80px;"></div>
+    <form action="formsubmit.html" method="get"> 
+    <label style="font-size: 24px;">EMAIL:</label>
+    <input type="text" placeholder="Enter Email" required 
+           pattern="[a-z0-9._%+-]+@gmail\.com"
+           style="font-size: 20px; padding: 10px; width: 300px;">
+    <br></br>
+
+    <label style="font-size: 24px;">PASSWORD:</label>
+    <input type="password" placeholder="Enter Password" required 
+           pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@!#$%^&*]).{8,16}"
+           style="font-size: 20px; padding: 10px; width: 300px;">
+    <br></br>
+
+    <input type="submit" style="font-size: 20px; padding: 10px 20px;">
+</form>
+
+</body>
+</html>
